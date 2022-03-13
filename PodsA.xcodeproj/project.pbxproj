@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		60D2A6AD27DE195600F9820C /* PodsA.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D2A6AB27DE195600F9820C /* PodsA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60D2A6B527DE19A600F9820C /* ClassA.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D2A6B327DE19A600F9820C /* ClassA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60D2A6B627DE19A600F9820C /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D2A6B427DE19A600F9820C /* ClassA.m */; };
+		60D2A6B927DE19B200F9820C /* ClassAA.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D2A6B727DE19B200F9820C /* ClassAA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60D2A6BA27DE19B200F9820C /* ClassAA.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D2A6B827DE19B200F9820C /* ClassAA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		60D2A6A827DE195600F9820C /* PodsA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodsA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D2A6AB27DE195600F9820C /* PodsA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsA.h; sourceTree = "<group>"; };
 		60D2A6AC27DE195600F9820C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60D2A6B327DE19A600F9820C /* ClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		60D2A6B427DE19A600F9820C /* ClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		60D2A6B727DE19B200F9820C /* ClassAA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassAA.h; sourceTree = "<group>"; };
+		60D2A6B827DE19B200F9820C /* ClassAA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassAA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +56,10 @@
 			children = (
 				60D2A6AB27DE195600F9820C /* PodsA.h */,
 				60D2A6AC27DE195600F9820C /* Info.plist */,
+				60D2A6B327DE19A600F9820C /* ClassA.h */,
+				60D2A6B427DE19A600F9820C /* ClassA.m */,
+				60D2A6B727DE19B200F9820C /* ClassAA.h */,
+				60D2A6B827DE19B200F9820C /* ClassAA.m */,
 			);
 			path = PodsA;
 			sourceTree = "<group>";
@@ -60,6 +72,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				60D2A6AD27DE195600F9820C /* PodsA.h in Headers */,
+				60D2A6B927DE19B200F9820C /* ClassAA.h in Headers */,
+				60D2A6B527DE19A600F9820C /* ClassA.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D2A6BA27DE19B200F9820C /* ClassAA.m in Sources */,
+				60D2A6B627DE19A600F9820C /* ClassA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
